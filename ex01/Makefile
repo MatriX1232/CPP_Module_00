@@ -1,11 +1,12 @@
 CC = c++
-CPPFLAGS = -Wall -Wextra -Werror -std=c++98
+CPPFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
 NAME = phonebook
 
 FILES = \
 	main.cpp \
-	PhoneBook.cpp
+	PhoneBook.cpp \
+	PhoneBook_utils.cpp
 
 OBJS = ${FILES:.cpp=.o}
 
